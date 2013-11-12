@@ -5,7 +5,7 @@ def get_even(n):
     sum = 0
     for x in range(n):
         if x % 2 is 0:
-            sum += n
+            sum += x
         return sum
 print get_even(10)
 print get_even(11)
