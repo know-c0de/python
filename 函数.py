@@ -1,5 +1,5 @@
-#!/usr/bin/env python2.7.6
-#coding=utf-8
+# #!/usr/bin/env python2.7.6
+# coding=utf-8
 #
 # Copyright 2013 the Melange authors.
 #
@@ -16,15 +16,16 @@
 """It's work for addition from 1 to 500"""
 
 __authors__ = [
-  '"spirit" <code.sec01@gmail.com>'
+    '"spirit" <code.sec01@gmail.com>'
 ]
 
+
 def get_even(n):
-    sum=0
+    sum = 0
     """定义函数 初始化变量sum"""
 
     for x in range(n):
-        if x % 2 is 0:              
+        if x % 2 is 0:
             sum += x
     return sum
     """执行循环"""
