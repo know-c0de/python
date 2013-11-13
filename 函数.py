@@ -33,4 +33,3 @@ print get_even(10)
 print get_even(11)
 print get_even(100)
 print get_even(500)
-    """执行输出"""
