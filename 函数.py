@@ -27,7 +27,7 @@ def get_even(n):
         if x % 2 is 0:              
             sum += x
         return sum
-    """"执行循环"""
+    """执行循环"""
 
 print get_even(10)
 print get_even(11)
