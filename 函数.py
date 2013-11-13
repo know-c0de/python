@@ -1,15 +1,23 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7.6
 #coding=utf-8
+#
+#Copyright 2013 Google Inc
+#Time:2013.11.13
+#Author:spirit
+#E-mail:code.sec01@gmail.com
+#
+#The code is work for addition from 1 to 500
+#
 
-def get_even(n):                  #定义函数，参数
-    sum = 0                       #初始化sum赋值
+def get_even(n):
+    sum = 0                      
     
-    for x in range(n):            #循环，给定x的数值范围
+    for x in range(n):          
         if x % 2 is 0:            
-            sum += x              #判断x是否为偶数，执行sum = sum + x
+            sum += x              
         return sum                
-
-print get_even(10)                #当参数为10，输出
-print get_even(11)                #当参数为11，输出
+        
+print get_even(10)                
+print get_even(11)                
 print get_even(100)
 print get_even(500)
