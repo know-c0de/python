@@ -13,22 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""It's work for addition from 1 to 500"""
 
 __authors__ = [
-    '"spirit" <code.sec01@gmail.com>'
+    '"know_c0de" <xxxx@xxxx.com>'
 ]
 
 
 def get_even(n):
     sum = 0
-    """定义函数 初始化变量sum"""
 
     for x in range(n):
         if x % 2 is 0:
             sum += x
     return sum
-    """执行循环"""
 
 print get_even(10)
 print get_even(11)
