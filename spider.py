@@ -1,4 +1,4 @@
-#! /usr/bin/env python2.7.5
+#!/usr/bin/env python
 #coding=utf-8
 
 import urllib2
@@ -16,10 +16,12 @@ while True:
     n.append(f)
 files.close()
 
-match = url_legal_pattern.search(n)
-if not match:
-    print 'The url is wrong'
-    return -1
+for x in n:
+    match = url_legal_pattern.search(x)
+    if not match:
+        print 'The url is wrong'
+    else:
+        break
 
 for i in n:
     try:
